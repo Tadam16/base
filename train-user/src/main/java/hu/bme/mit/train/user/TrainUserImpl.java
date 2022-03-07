@@ -29,7 +29,7 @@ public class TrainUserImpl implements TrainUser {
 	}
 
 	public void hello_world(){
-		System.out.println("Hello World!")
+		System.out.println("Hello World!");
 	}
 
 }
