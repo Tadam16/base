@@ -52,4 +52,4 @@ The figure below illustrates this behavior using an example.
 + Tumay Adam *Z7MTDT*
 + Szabo Eniko *EHPZ8P*
 
-Ez a szerkesztett sor
+2022. 03. 07.
