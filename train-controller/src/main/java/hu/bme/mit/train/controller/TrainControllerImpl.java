@@ -10,17 +10,17 @@ public class TrainControllerImpl implements TrainController {
 	private int step = 0;
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
-	private Timer t = new Timer();
+	private Timer timer = new Timer();
 
 	public TrainControllerImpl()  {	
-		TimerTask tt = new TimerTask() {
+		TimerTask timertask = new TimerTask() {
 			@Override
 			public void run() {
 				followSpeed();
 			}
 		}; 
 
-		t.scheduleAtFixedRate(tt, 1000, 1000);
+		timer.scheduleAtFixedRate(timertask, 1000, 1000);
 
 	}
 
