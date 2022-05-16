@@ -28,8 +28,7 @@ public class TrainUserImpl implements TrainUser {
 		controller.setJoystickPosition(joystickPosition);
 	}
 
-	public void hello_world(){
-		System.out.println("Hello World!");
+	public void helloWorld(){
 	}
 
 }
