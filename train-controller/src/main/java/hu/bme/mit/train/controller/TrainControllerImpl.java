@@ -15,7 +15,7 @@ public class TrainControllerImpl implements TrainController {
                 followSpeed();
             }
         }, 
-        5000 
+        1000 
 	);
 
 	TrainControllerImpl() {
